@@ -1,7 +1,12 @@
-### Put comments here that give an overall description of what your
-## functions do
+## Implementation of a special matrix ('cacheMatrix'), which caches 
+## its inverse. This is done by using two functions:
+## "makeCacheMatrix" for initialization and
+## "cacheSolve" to get the inverse.
+## The inverse will only be calculated on the first call of cacheSolve, 
+## or if the matrix has been changed; otherwise the cached inverse 
+## will be returned
 
-## "makeCacheMatrix" initializes a 'cacheMatrix',
+## "makeCacheMatrix" initializes a 'cacheMatrix';
 ## also provides functions to set and get the matrix and its cached inverse
 
 makeCacheMatrix <- function(x = matrix()) {
