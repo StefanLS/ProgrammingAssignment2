@@ -1,5 +1,6 @@
-This repository contains the solution to the 'Programming Assignment 2'
+This repository contains the solution 'cacheMatrix.R' to the 'Programming Assignment 2'
 of the 'R Programming' course given by Roger D. Peng, PhD, Jeff Leek, PhD, Brian Caffo, PhD
+
 
 ### Assignment: Caching the Inverse of a Matrix
 
